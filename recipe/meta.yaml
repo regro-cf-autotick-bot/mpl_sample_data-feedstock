@@ -5,7 +5,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: matplotlib-{{ version }}.tar.gz
   url: https://github.com/matplotlib/matplotlib/archive/v{{ version }}.tar.gz
   sha256: b1dfd2bec5fae524469a046b3d9083772fb41c547a581b2bdf84f017b7649eff
 
