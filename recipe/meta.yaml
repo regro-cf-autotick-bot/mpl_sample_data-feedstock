@@ -1,13 +1,12 @@
-{% set version = "2.1.2" %}
+{% set version = "2.2.0" %}
 
 package:
   name: mpl_sample_data
   version: {{ version }}
 
 source:
-  fn: matplotlib-{{ version }}.tar.gz
   url: https://github.com/matplotlib/matplotlib/archive/v{{ version }}.tar.gz
-  sha256: 613d79282a0a8ba88cfc52dbcf1b08ab070dae395c3d313d141ccc3f87e3c9fa
+  sha256: b1dfd2bec5fae524469a046b3d9083772fb41c547a581b2bdf84f017b7649eff
 
 build:
   number: 0
