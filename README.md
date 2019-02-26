@@ -1,3 +1,7 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About mpl_sample_data
 =====================
 
@@ -21,7 +25,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/mpl_sample_data-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/mpl_sample_data-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/mpl_sample_data-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/mpl_sample_data-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/mpl_sample_data-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/mpl-sample-data-feedstock/branch/master)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/mpl-sample-data-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/mpl-sample-data-feedstock/branch/master)
 
 Current release info
 ====================
@@ -54,6 +58,8 @@ conda search mpl_sample_data --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -109,3 +115,13 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@dopplershift](https://github.com/dopplershift/)
+* [@mdboom](https://github.com/mdboom/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+* [@pelson](https://github.com/pelson/)
+* [@tacaswell](https://github.com/tacaswell/)
+
